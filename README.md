@@ -1,4 +1,4 @@
-# Spectral-Clustering
+# Normalized Spectral Clustering
 this project implement a version of the normalized spectral clustering algorithm.
 it includes generation of data, visualization and implementing a well known clustering algorithm with all of its components.
 
