@@ -1,6 +1,7 @@
 # Normalized Spectral Clustering
 this project implement a version of the normalized spectral clustering algorithm.
-it includes generation of data, visualization and implementing a well known clustering algorithm with all of its components.
+it includes generation of data, visualization and implementing a well known clustering algorithm with all of its components, c extentions 
+and cpython API.
 
 
 1. The user executes the program with certain arguments using the invoke library.
