@@ -4,13 +4,14 @@ it includes generation of data, visualization and implementing a well known clus
 and cpython API.
 
 
-1. The user executes the program with certain arguments using the invoke library.
-2. The program will generate random points that will be used for clustering.
-3. The program will compute the clusters using two algorithms: the Normalized Spectral
-Clustering and K-means.
+ The user executes the program with certain arguments using the invoke library.
+in the terminal:
+ $python setup.py build_ext --inplace ///  build the c extensions
+ $python -m invoke run  /// run the progrgram and genrate the data randomly.
 
-4. The program will output:
-• A file with the resulting clusters from both algorithms.
+ The program will output:
+
+• A file with the resulting clusters from both algorithms- kmeans clusters algorithm and normalized spectral clustering algorithm.
 • A file containing the data points that were used.
 • A visualization file comparing the resulting clusters of the two algorithms.
 
