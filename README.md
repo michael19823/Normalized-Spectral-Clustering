@@ -7,6 +7,7 @@ and cpython API.
  The user executes the program with certain arguments using the invoke library.
 in the terminal:
  $python setup.py build_ext --inplace ///  build the c extensions
+ 
  $python -m invoke run  /// run the progrgram and genrate the data randomly.
 
  The program will output:
